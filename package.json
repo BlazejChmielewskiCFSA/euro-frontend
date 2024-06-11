@@ -6,8 +6,8 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "cd task-master && ng serve",
+    "build": "cd task-master && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
