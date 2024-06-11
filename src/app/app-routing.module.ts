@@ -14,6 +14,7 @@ import { PaymentComponent } from './home/users/payment/payment.component';
 import { PaymentHistoryComponent } from './home/users/payment/payment-history/payment-history.component';
 
 const routes: Routes = [
+  {path:'', component: HomeComponent},
   {path:'home', component: HomeComponent},
   {path:'login', component: LoginComponent},
   {path:'register', component: RegisterComponent},
