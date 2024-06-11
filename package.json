@@ -7,7 +7,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "prebuild": "cd task-master && npm run server.js",
+    "build": "cd task-master && npm run build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
